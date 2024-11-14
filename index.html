@@ -5,20 +5,29 @@
   <title>Formulario para personas</title>
 </head>
 <body>
-  <form>
-    <label for="nombre">Nombre:</label>
-    <label for="usuario">Usuario:</label><br>
-    <input type="text" id="nombre" name="nombre">
-    <input type="text" id="usuario" name="usuario"><br>
-    <label for="apellidos">Apellidos:</label>
-    <label for="contrasena">Contraseña:</label><br>
-    <input type="text" id="apellidos" name="apellidos"><br><br>
-    <input type="text" id="contrasena" name="contrasena"><br><br>
-    <input type="radio" id="menos18" name="edad" value="-18">
-    <label for="menos18">-18</label><br>
-    <input type="radio" id="css" name="edad" value="+18">
-    <label for="mas18">+18</label><br>
-    <input type="submit" value="Enviar">
-  </form>
+<form>
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+  <label for="usuario">Usuario:</label>
+  <input type="text" id="usuario" name="usuario"><br>
+
+  <label for="apellidos">Apellidos:</label>
+  <input type="text" id="apellidos" name="apellidos">
+  <label for="contrasena">Contraseña:</label>
+  <input type="text" id="contrasena" name="contrasena"><br><br>
+  <p>Edad</p>
+  <input type="radio" id="menos18" name="edad" value="-18">
+  <label for="menos18">-18</label><br>
+  <input type="radio" id="mas18" name="edad" value="+18">
+  <label for="mas18">+18</label><br><br>
+  <p>Aficiones</p>
+  <input type="checkbox" id="deporte" name="deporte" value="Bike">
+  <label for="deporte">Deporte</label><br>
+  <input type="checkbox" id="musica" name="musica" value="Car">
+  <label for="musica">Música</label><br>
+  <input type="checkbox" id="sofa" name="sofa" value="Boat">
+  <label for="sofa">Sofa</label><br><br>
+  <input type="submit" value="Enviar">
+</form>
 </body>
 </html>
